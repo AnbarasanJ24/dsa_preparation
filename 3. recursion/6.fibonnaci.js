@@ -10,5 +10,5 @@ const fibonacci = (num) => {
 console.log(fibonacci(5))
 
 // Here each number has two recursion call so 2 ^ N (Expotential) 
-// T.C => O (2^N)
+// T.C => O (2^N) 
 // S.C => O (N/2)
