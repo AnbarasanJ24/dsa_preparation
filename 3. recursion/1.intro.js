@@ -3,31 +3,30 @@
 // - Call the function itself
 // - Base condition to stop the function call
 
-const printNumbers = (num, totalTimes) => {
-  if (num > totalTimes) return;
-  console.log(num);
-  num++;
-  printNumbers(num, totalTimes);
+const printNumbers = (start, end) => {
+  if (start > end) return;
+  console.log(start);
+  printNumbers(start + 1, end);
 };
 
-// printNumbers(1, 5);
+printNumbers(1, 5);
 
-const printNumbersReverse = (i, n) => {
-  if (n < i) return;
-  console.log(n);
-  printNumbersReverse(i, n - 1);
+const printNumbersReverse = (start, end) => {
+  if (start < end) return;
+  console.log(start);
+  printNumbersReverse(start - 1, end);
 };
 
-printNumbersReverse(1, 5);
+printNumbersReverse(5, 1);
 
 // T.C => O (N) , N => Number of times the function is called
 // S.C => O (N) , N => Number of functions stored on system memory not in array or any other variable
 
-const printName = (name, NoofTimes, totalTimes) => {
-  if (NoofTimes > totalTimes) return;
+const printName = (name, start, end) => {
+  if (start > end) return;
   console.log(name);
-  NoofTimes++;
-  printName(name, NoofTimes, totalTimes);
+  start++;
+  printName(name, start, end);
 };
 
 // printName("Anbarasan", 1, 3);

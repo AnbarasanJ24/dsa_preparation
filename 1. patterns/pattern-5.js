@@ -5,8 +5,8 @@ const pattern= (rows)=>{
     let string = ""
     
     for (let row = 0; row < rows; row++){
-        // 5 - 0 - 1, 5 - 1 - 1 and so on
-        for(let col = 0; col <= rows - row - 1; col++){
+        // 5 - 0 , 5 - 1 and so on
+        for(let col = 1; col <= rows - row; col++){
             string += "* "
         }
         string += "\n"
@@ -25,3 +25,5 @@ const pattern= (rows)=>{
 //     return string;
 // }
 console.log(pattern(5))
+
+

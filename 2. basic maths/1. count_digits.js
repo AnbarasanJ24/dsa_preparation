@@ -17,7 +17,7 @@ const countDigits = (N)=>{
 // T.C => O (log10 (N))
 // The number is divisible by 10 until it becomes zero
 // In case of divisible by 2 then O (log2 (N))
-// In case of division or multiplication, the time complexity will be logrothamic
+// In case of division or multiplication, the time complexity will be logrithemic
 
 const countDigits_1 = (N)=>{
     return Math.floor(Math.log10(N)) + 1

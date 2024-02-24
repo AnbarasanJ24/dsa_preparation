@@ -15,4 +15,4 @@ const pattern2 = (rows)=>{
 console.log(pattern2(5))
 
 // T.c => O(N^2)
-// S.C => O()
+// S.C => O(N^2)

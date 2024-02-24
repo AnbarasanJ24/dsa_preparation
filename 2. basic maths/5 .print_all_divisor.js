@@ -1,4 +1,4 @@
-// Check which numbers can divide the given number so that it the remainder will be zero
+// Check which numbers can divide the given number so that the remainder will be zero
 // 36 => 1,2,3,4,6,9,12,18,36
 // 6 => 1,2,3,6
 

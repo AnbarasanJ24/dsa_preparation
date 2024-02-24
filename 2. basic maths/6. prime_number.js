@@ -11,16 +11,6 @@ const primeCheck = (num) => {
 };
 // T.C => O (N)
 
-const primeCheck_1 = (num) => {
-  for (let eachNumber = 2; eachNumber * eachNumber < num; eachNumber++) {
-    if (num % eachNumber === 0) {
-      return false;
-    }
-  }
-  return num !== 1 && true;
-};
-// T.C => O(Sqrt(N))
-
 const primeCheck_2 = (num) => {
   let count = 0;
   for (let eachNumber = 1; eachNumber <= num; eachNumber++) {
