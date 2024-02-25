@@ -26,7 +26,7 @@ for (let ch of charToCheck) {
 
 // ===============================================================================================
 
-// In above problem, we hace lower case constraint but in case of computing for 256 character there is no issue
+// In above problem, we have lower case constraint but in case of computing for 256 character there is no issue
 // Because 'a' will be pre-computed to 97 and will fetching it will be at 97
 let characterhash_1 = Array(256).fill(0);
 let str_1 = "A!A!B121aba";
