@@ -21,7 +21,7 @@ for(let index= 1; index < arr1.length ; index++){
     }
 }
 console.log("Largest", largest)
-// T.C => O (N) 
+// T.C => O (N)
 // S.c => O (1)
 
 
