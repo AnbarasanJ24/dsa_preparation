@@ -1,7 +1,7 @@
 // Find the missing number in the array
 let arr1 = [1, 2, 4, 5];
 let N = 5;
-// output => From 1 t0 N i.e 5, 3 is missing
+// output => From 1 to N i.e 5, 3 is missing
 
 // Brute
 // Loop from 1 to N and check each number present in the array or not => O (N^2)
@@ -76,7 +76,7 @@ console.log(missingNumberSum(arr1, N));
 // XOR
 // when two number are same then XOR will be zero => 2^2 = 0
 // 2^2^2^2 will become 0^0 => 0
-// 2^2^2^2^2 => 0^0^2 => 0^2 => zero wth any number XOR is that num itself => 2
+// 2^2^2^2^2 => 0^0^2 => 0^2 => zero wth any non zero number XOR is that num itself => 2
 
 const missingNumberXOR = (arr, N)=>{
     let xor1 = 0;

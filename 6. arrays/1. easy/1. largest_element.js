@@ -1,5 +1,7 @@
 
+// Find the largest element in the array 
 let arr1 = [13, 56, 41, 39, 32, 8];
+// O/P => 56
 
 // Brute Force
 // Sort the array, so that largest element will be at the last 
@@ -41,3 +43,8 @@ console.log("Largest", largest)
 // Optimal 
 // T.C => O () 
 // S.c => O ()
+
+/**
+ * 
+ * 
+ */

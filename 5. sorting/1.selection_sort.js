@@ -1,4 +1,7 @@
-// Selection sort => select minimum ian entrire array nd swap it
+// Selection sort
+// Pick a element and assume that is a min. now loop the rest of the array and find the value min than that
+// After on complete iteration swap it 
+
 
 let arr1 = [3, 6, 1, 9, 2, 8];
 let arr2 = [13, 56, 41, 39, 32, 8];

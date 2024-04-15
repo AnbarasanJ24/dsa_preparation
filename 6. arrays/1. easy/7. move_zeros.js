@@ -28,7 +28,7 @@ const removeZeros = (nums) => {
 
 // Optimal
 // We should use one pointer to maintain zero another pointer to find the non zero
-//  As soon as we find non zero swap with Zero pointer index
+// As soon as we find non zero swap with Zero pointer index
 // Increase the zero pointer because the next value will be zero in case of swapping or skipping
 
 // Step 1: Find the zero and make as j

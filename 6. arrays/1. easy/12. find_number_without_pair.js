@@ -1,4 +1,4 @@
-// Find the number appear once and the other numbers twice
+// Find the number appear once and the other numbers appears twice
 // i.e Find a number without a pair in the pairs of array
 let arr = [1, 1, 2, 3, 3, 4, 4];
 // Output => 2

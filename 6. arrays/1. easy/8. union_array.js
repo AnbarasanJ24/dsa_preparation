@@ -1,5 +1,5 @@
 // Find the union of two sorted arrays
-// The result should have values from both array without any duplicates
+// The result should have values from both array without any duplicates [ should be in sorted order]
 // let arr1 = [1, 2, 3, 3, 9,9];
 // let arr2 = [1, 2, 4, 6];
 // let result = [1, 2, 3, 4, 6, 9];
