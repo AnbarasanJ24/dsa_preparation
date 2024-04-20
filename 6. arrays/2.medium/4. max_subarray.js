@@ -65,21 +65,29 @@ console.log(maxSubArrayBetter(arr));
 
 // Optimal - Kadanes Algorithm
 // Loop the array and add it to the sum,
-// if the sum is less than zero then it will be useful to maximize the subarray sum so reset sum to 0
+// if the sum is less than zero then it will not be useful to maximize the subarray sum so reset sum to 0
 
 const maxSubArrayOptimal = (arr) => {
   let sum = 0;
   let maxSum = arr[0];
+  let start = 0;
+  let ansStart = 0;
+  let ansEnd = 0;
   for (let i = 1; i < arr.length; i++) {
+    if (sum === 0) start = i;
     sum += arr[i];
+    if (sum > maxSum) {
+      maxSum = sum;
+      ansStart = start;
+      ansEnd = i;
+    }
     if (sum < 0) {
       sum = 0;
     }
-    maxSum = Math.max(sum, maxSum);
   }
-  return maxSum;
+  return [maxSum, ansStart, ansEnd];
 };
 
 console.log(maxSubArrayOptimal(arr));
-// T.C => O (N) 
+// T.C => O (N)
 // S.c => O (1)
