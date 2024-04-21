@@ -33,16 +33,16 @@ console.log("Largest", largest)
 
 // Brute Force
 // T.C => O () 
-// S.c => O ()
+// S.C => O ()
 
 
 // Better 
 // T.C => O () 
-// S.c => O ()
+// S.C => O ()
 
 // Optimal 
 // T.C => O () 
-// S.c => O ()
+// S.C => O ()
 
 /**
  * 
